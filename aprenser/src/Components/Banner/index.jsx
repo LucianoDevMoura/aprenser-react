@@ -15,9 +15,7 @@ function Banner() {
                         alt=" Img Mulher" 
                     />
                 </div>
-
             </section>
-
         </main>
     );
 }
