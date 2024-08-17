@@ -1,0 +1,14 @@
+.lista{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+
+    li{
+        border: 1px solid rgb(254,208,1);
+        color: rgb(254,208,1);
+        padding: 8px 10px;
+        border-radius: 5px;
+        text-transform: uppercase;
+    }
+}
