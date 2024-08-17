@@ -1,0 +1,24 @@
+:root{
+    --gradient: linear-gradient(#ffffca,#fff239);
+} 
+
+.container{
+    background: var(--gradient);
+}
+.banner{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1400px;
+    margin: auto;
+
+    & h1{
+        font-size: 4rem;
+        line-height: 1.4;
+
+        span{
+            text-transform: uppercase;
+        }
+    }
+}
