@@ -1,14 +1,15 @@
-import React, { useState } from 'react';
+
+import React from 'react';
 import Style from '../Navegacao/NavBar.module.css';
 
 
 export const NavBar = () => {
 
-    const [ navBar , setNavBar] =  useState([
+    const navBar = [
         'Cursos',
         'Nossa Escola', 
-        'Contato'
-    ]);
+        'Contato',
+    ];
     
     return (
         <ul className={ Style.lista }>
