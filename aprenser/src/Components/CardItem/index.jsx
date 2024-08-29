@@ -1,10 +1,9 @@
-import Botao from '../Botao';
+import React from 'react';
 import './stiloCards.css';
 
 export function CardItem( {itensCard} ){
     return(
         <>
-            
             {
                 itensCard.map((itensCard, index)=>(
                     <div key={ index } className="cards">
@@ -16,11 +15,8 @@ export function CardItem( {itensCard} ){
                             </div>
                         </div>
                     </div>
-                    
                 ))
             }
-            
-        
         </>
     );
 }

@@ -1,6 +1,9 @@
 import Banner from "./Components/Banner";
-import Cursos from "./Components/Cursos";
+import PrincCursos from "./Components/PrincCursos";
 import { Header } from "./Components/Header";
+import Escola from "./Components/Escola";
+import IframeMapa from "./Components/IframeMapa";
+
 
 
 function App() {
@@ -8,8 +11,9 @@ function App() {
         <>
             <Header />
             <Banner />
-            <Cursos />
-
+            <PrincCursos />
+            <Escola />
+            <IframeMapa />
         </>
     )
 }

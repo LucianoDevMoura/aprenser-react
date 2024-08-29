@@ -1,4 +1,4 @@
-import MulherImg from '../../assets/img/HeroImage.png';
+import MulherImg from '/img/HeroImage.png';
 import Botao from '../Botao';
 import './stilo.css';
 

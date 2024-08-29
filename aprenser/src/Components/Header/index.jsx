@@ -1,5 +1,5 @@
 import Style from './Header.module.css';
-import Logo from '../../assets/img/logoAprenser.png';
+import Logo from '/img/logoAprenser.png';
 import { NavBar } from '../Navegacao';
 
 
